@@ -4,4 +4,7 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.10.2"]]
-  :repl-options {:init-ns qrecord.core})
+  :repl-options {:init-ns qrecord.core}
+  :deploy-repositories
+  [["releases" {:url "https://repo.clojars.org" :creds :gpg}]
+   ["snapshots" {:url "https://repo.clojars.org" :creds :gpg}]])
