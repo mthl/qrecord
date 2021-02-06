@@ -1,4 +1,4 @@
-(defproject fr.reuz/qrecord "0.1.0-SNAPSHOT"
+(defproject fr.reuz/qrecord "0.1.0"
   :description "defrecord with qualified field names"
   :url "http://github.com/mthl/qrecord"
   :license {:name "Eclipse Public License"
