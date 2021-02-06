@@ -2,6 +2,8 @@
 
 `defrecord` with qualified field names.
 
+[![Clojars Project](https://clojars.org/fr.reuz/qrecord/latest-version.svg)](https://clojars.org/fr.reuz/qrecord)
+
 ## Problem
 
 Using namespaced identifiers is an excellent way to represent information because it allows the accretion of data in aggregates without any risk of conflicting names and makes the meaning associated with those identifiers global. This is the technique used by the [*Resource Description Framework* (RDF)](https://www.w3.org/TR/2014/REC-rdf11-concepts-20140225/) to share data across the Web.
